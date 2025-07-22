@@ -20,7 +20,7 @@ jobs:
           organization: 'testing_redocly'
           project: 'catchup-dm'
           mountPath: '/learning-openapi'
-          files: 'get-started.md, learning-openapi.yaml'
+          files: 'get-started.md learning-openapi.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
